@@ -36,5 +36,11 @@
   },
   "dependencies": {
     "chart.js": "^4.4.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "testEnvironment": "jsdom"
   }
 }
